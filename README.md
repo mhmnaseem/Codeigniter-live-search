@@ -1,27 +1,13 @@
 # Codeigniter-live-search
 Codeigniter live search using ajax
 
+![Screenshot](image.png)
 
 CREATE TABLE `item` (
   `id` int(10) NOT NULL,
   `title` varchar(100) NOT NULL,
   `description` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-
---
--- Indexes for table `item`
---
-ALTER TABLE `item`
-  ADD PRIMARY KEY (`id`);
-
-
-
---
--- AUTO_INCREMENT for table `item`
---
-ALTER TABLE `item`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 
 
